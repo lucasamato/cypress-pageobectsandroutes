@@ -30,7 +30,7 @@ steps:
 - task: PublishTestResults@2
   displayName: 'Exibindo resultados dos testes'
   inputs:
-    testResultFiles: '**/junit-*.xml'
+    testResultsFiles: '**/junit-*.xml'
     mergeTestResults: true,
     testRunTitle: 'Run Tests page objects',
   

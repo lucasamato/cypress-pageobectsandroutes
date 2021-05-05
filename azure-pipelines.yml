@@ -27,3 +27,12 @@ steps:
   displayName: "Run tests on chrome"
   continueOnError: true
 
+- task: PublishTestResults@2
+  displayName: 'Exibindo resultados dos testes'
+  inputs:
+    testResultFiles: '**/junit-*.xml'
+    mergeTestResults: true,
+    testRunTitle: 'Run Tests page objects',
+  
+  continueOnError: true
+

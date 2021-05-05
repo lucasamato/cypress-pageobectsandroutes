@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-05-05T14:41:00" tests="0" file="cypress/integration/cadastro.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Cadastro" timestamp="2021-05-05T14:41:00" tests="1" time="0.0000" failures="1">
+    <testcase name="Cadastro Cadastrar um novo usuário" time="0.0000" classname="Cadastrar um novo usuário">
+      <failure message="inputName is not defined" type="ReferenceError"><![CDATA[ReferenceError: inputName is not defined
+    at Cadastro.preencherCadastro (https://demo.realworld.io/__cypress/tests?p=cypress\integration\cadastro.spec.js:183:12)
+    at Context.eval (https://demo.realworld.io/__cypress/tests?p=cypress\integration\cadastro.spec.js:126:23)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -4,6 +4,10 @@
     "user": {
         "email": "amato@email.com",
         "password": "87654321"
+    },
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "cypress/reports/jnuit-[hash].xml"
     }
     
 
